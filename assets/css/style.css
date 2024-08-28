@@ -1922,3 +1922,19 @@ iframe {
 
 
 
+.tour-details-package-box label {
+  position: absolute;
+  z-index: 2;
+  top: -0.8rem;
+  left: 1rem;
+  padding: 2px;
+  color: var(--second-color);
+}
+.tour-details-package-box {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.form-select{
+  color: var(--second-color);
+}
