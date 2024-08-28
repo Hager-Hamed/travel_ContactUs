@@ -170,6 +170,31 @@
       </div>
     </nav>
 
+    <div id="footer-bar" class="footer-bar-5">
+      <a class="active-nav"
+        data-bs-toggle="offcanvas"
+        href="./index.html"
+        role="button"
+        aria-controls=""
+      >
+      <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+      </a>
+   
+      <a href="#" data-menu="menu-call">
+        <i class="fa fa-phone color-phone"></i> <span>Call </span>
+      </a>
+    
+      <a href="#" data-menu="menu-whatsapp"
+        >
+        <i class="fa-brands fa-whatsapp color-phone"></i>
+        <span>Whatsapp</span></a
+      >
+      <a href="#">
+        <i class="fa-solid fa-paper-plane"></i>
+        <span>Tailor-made</span></a
+      >
+    </div>
     <!--=================================    end Navbar    ===================================-->
 
     <!-- ============================= Page Header Start ================================================-->
@@ -231,14 +256,12 @@
                 </div>
               </div>
               <div class="col-md-6">
-
                 <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
                   <label>email</label>
                   <input type="email" name="email" required="">
                 </div>
               </div>
               <div class="col-md-6">
-
                 <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
                   <label>phone</label>
                   <input type="phone" name="phone" class="phone" required="">
@@ -507,30 +530,35 @@
                 </div>
               </div>
               <div class="col-md-12">
-
                 <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
                   <label>subject</label>
                   <input type="text" name="subject" class="name error" required="">
                 </div>
               </div>
               <div class="col-md-12">
-              
                 <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
                   <label>Message</label>
                   <textarea name="message" required="" rows="1" class="message" placeholder=""></textarea>
                 </div>
 
-                <button type="submit" class="btn-effect">
-                  Message Me
-                  <i class="fa-regular fa-paper-plane"></i>
-                </button>
+                <a href="#" class="btn main-btn main-btn--scroll">
+                  <span> Send Now</span>
+                  <div class="marquee" aria-hidden="true">
+                    <div class="marquee__inner">
+                      <span> Send Now</span>
+                      <span> Send Now</span>
+                      <span> Send Now</span>
+                      <span> Send Now</span>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           </form>
         </div>
         <div class="col-md-6">
           <div class="map-box">
-            <iframe height="458px"
+            <iframe height="550"
               src="https://maps.google.com/maps?q=manhatan&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
           </div>
         </div>
