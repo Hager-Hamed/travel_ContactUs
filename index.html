@@ -230,7 +230,7 @@
 <!--============================================= Page Header End ===============================================-->
 
   <!--===========================================   Start contact section ==============================================-->
- <section class="contact-us padbo-100">
+  <section class="contact-us padbo-100">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -260,30 +260,35 @@
         </div>
 
         <div class="col-md-6">
-          <form id="contact-form" class="contact-info contact-form">
-            <!--contact-form-->
-            <div class="row">
-              <div class="col-md-6">
 
-                <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
-                  <label>Name</label>
-                  <input type="text" name="name" required="">
-                </div>
+
+        
+
+          <form id="contact-form" class="contact-info contact-form">
+          
+            <div class="row">
+              <div class="col-md-12">
+
+                <div class="form-floating mb-20">
+                  <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                  <label for="name">Your Name</label>
+              </div>
               </div>
               <div class="col-md-6">
-                <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
-                  <label>email</label>
-                  <input type="email" name="email" required="">
-                </div>
+                <div class="form-floating">
+                  <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                  <label for="email">Your Email</label>
+              </div>
               </div>
               <div class="col-md-6">
-                <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
-                  <label>phone</label>
-                  <input type="phone" name="phone" class="phone" required="">
-                </div>
+                <div class="form-floating ">
+                  <input type="phone" class="form-control border-0" id="namphonee" placeholder="Your phone">
+                  <label for="phone">phone</label>
               </div>
-              <div class="col-md-6">
-                <div class="form-item mb-20">
+              
+              </div>
+              <div class="col-md-12">
+                <div class="form-item mt_20">
                   <select name="nationality" class="form-select" aria-label="Default select example">
                     <option selected="">Nationality</option>
                     <option value="Afghanistan">Afghanistan</option>
@@ -542,19 +547,19 @@
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
                   </select>
-                </div>
+                </div> 
               </div>
               <div class="col-md-12">
-                <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
-                  <label>subject</label>
-                  <input type="text" name="subject" class="name error" required="">
-                </div>
+                <div class="form-floating mb-20">
+                  <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
+                  <label for="subject">Subject</label>
+              </div>
               </div>
               <div class="col-md-12">
-                <div class="tour-details-package-box position-relative  d-flex align-items-center justify-content-between mt-24">
-                  <label>Message</label>
-                  <textarea name="message" required="" rows="1" class="message" placeholder=""></textarea>
-                </div>
+                <div class="form-floating mb-20">
+                  <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
+                  <label for="message">Message</label>
+              </div>
 
                 <a href="#" class="btn main-btn main-btn--scroll">
                   <span> Send Now</span>
